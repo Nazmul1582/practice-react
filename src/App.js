@@ -1,7 +1,10 @@
 import './App.css';
+
 import Button from './component/class6/CssComponent/CssModules/Button';
 import CssStyleComp from './component/class6/CssComponent/CssStyleComp';
 import InlineCssComp from './component/class6/CssComponent/InlineCssComp';
+import ControlledFrom from './component/class7/Form/ControlledFrom';
+import UncontrolledFrom from './component/class7/Form/UncontrolledFrom';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import ParentComp from './component/class4/ParentComp';
@@ -33,9 +36,12 @@ function App() {
       {/* <Task /> */}
       {/* <UpdatingComp /> */}
 
-      <CssStyleComp />
+      {/* <CssStyleComp />
       <InlineCssComp />
-      <Button />
+      <Button /> */}
+
+      {/* <ControlledFrom /> */}
+      <UncontrolledFrom />
 
     </div>
   );
