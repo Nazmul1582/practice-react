@@ -5,6 +5,9 @@ import CssStyleComp from './component/class6/CssComponent/CssStyleComp';
 import InlineCssComp from './component/class6/CssComponent/InlineCssComp';
 import ControlledFrom from './component/class7/Form/ControlledFrom';
 import UncontrolledFrom from './component/class7/Form/UncontrolledFrom';
+import MountingComp from './component/class8/Lifecycle/MountingComp';
+import UnmountingComp from './component/class8/Lifecycle/UnmountingComp';
+import UpdatingComp from './component/class8/Lifecycle/UpdatingComp';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import ParentComp from './component/class4/ParentComp';
@@ -34,14 +37,18 @@ function App() {
       {/* <ShowInfo /> */}
       {/* <Table /> */}
       {/* <Task /> */}
-      {/* <UpdatingComp /> */}
 
       {/* <CssStyleComp />
       <InlineCssComp />
       <Button /> */}
 
       {/* <ControlledFrom /> */}
-      <UncontrolledFrom />
+      {/* <UncontrolledFrom /> */}
+
+      {/* <MountingComp /> */}
+      {/* <UpdatingComp /> */}
+      <UnmountingComp />
+
 
     </div>
   );
