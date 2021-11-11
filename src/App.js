@@ -1,13 +1,15 @@
 import './App.css';
 
-import Button from './component/class6/CssComponent/CssModules/Button';
-import CssStyleComp from './component/class6/CssComponent/CssStyleComp';
-import InlineCssComp from './component/class6/CssComponent/InlineCssComp';
-import ControlledFrom from './component/class7/Form/ControlledFrom';
-import UncontrolledFrom from './component/class7/Form/UncontrolledFrom';
-import MountingComp from './component/class8/Lifecycle/MountingComp';
-import UnmountingComp from './component/class8/Lifecycle/UnmountingComp';
-import UpdatingComp from './component/class8/Lifecycle/UpdatingComp';
+// import Button from './component/class6/CssComponent/CssModules/Button';
+// import CssStyleComp from './component/class6/CssComponent/CssStyleComp';
+// import InlineCssComp from './component/class6/CssComponent/InlineCssComp';
+// import ControlledFrom from './component/class7/Form/ControlledFrom';
+// import UncontrolledFrom from './component/class7/Form/UncontrolledFrom';
+// import MountingComp from './component/class8/Lifecycle/MountingComp';
+// import UpdatingComp from './component/class8/Lifecycle/UpdatingComp';
+// import UnmountingComp from './component/class8/Lifecycle/UnmountingComp';
+import FragmentComp from './component/class9/FragmentComp';
+import TableComp from './component/class9/TableComp';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import ParentComp from './component/class4/ParentComp';
@@ -47,8 +49,10 @@ function App() {
 
       {/* <MountingComp /> */}
       {/* <UpdatingComp /> */}
-      <UnmountingComp />
+      {/* <UnmountingComp /> */}
 
+      {/* <FragmentComp /> */}
+      <TableComp />
 
     </div>
   );
