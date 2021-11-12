@@ -1,5 +1,4 @@
 import './App.css';
-
 // import Button from './component/class6/CssComponent/CssModules/Button';
 // import CssStyleComp from './component/class6/CssComponent/CssStyleComp';
 // import InlineCssComp from './component/class6/CssComponent/InlineCssComp';
@@ -8,8 +7,9 @@ import './App.css';
 // import MountingComp from './component/class8/Lifecycle/MountingComp';
 // import UpdatingComp from './component/class8/Lifecycle/UpdatingComp';
 // import UnmountingComp from './component/class8/Lifecycle/UnmountingComp';
-import FragmentComp from './component/class9/FragmentComp';
-import TableComp from './component/class9/TableComp';
+// import FragmentComp from './component/class9/FragmentComp';
+// import TableComp from './component/class9/TableComp';
+import MainComp from './component/class10/PureComp/MainComp';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import ParentComp from './component/class4/ParentComp';
@@ -52,7 +52,10 @@ function App() {
       {/* <UnmountingComp /> */}
 
       {/* <FragmentComp /> */}
-      <TableComp />
+      {/* <TableComp /> */}
+
+      <MainComp />
+
 
     </div>
   );

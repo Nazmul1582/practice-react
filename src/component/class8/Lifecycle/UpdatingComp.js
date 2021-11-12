@@ -13,7 +13,7 @@ class UpdatingComp extends Component{
     }
     shouldComponentUpdate(){
         console.log('form shouldComponentUpdate');
-        return true
+        return true  // details in class 10 Pure Component
     }
     getSnapshotBeforeUpdate(){
         console.log('from getSnapshotBeforeUpdate');
