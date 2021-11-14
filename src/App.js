@@ -10,6 +10,8 @@ import './App.css';
 // import FragmentComp from './component/class9/FragmentComp';
 // import TableComp from './component/class9/TableComp';
 import MainComp from './component/class10/PureComp/MainComp';
+import InputRefsComp from './component/class11/Ref/InputRefsComp';
+import RefsComp from './component/class11/Ref/RefsComp';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import ParentComp from './component/class4/ParentComp';
@@ -54,9 +56,10 @@ function App() {
       {/* <FragmentComp /> */}
       {/* <TableComp /> */}
 
-      <MainComp />
+      {/* <MainComp /> */}
 
-
+      {/* <InputRefsComp /> */}
+      <RefsComp />
     </div>
   );
 }
