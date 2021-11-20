@@ -1,4 +1,10 @@
 import './App.css';
+// import ParentComp from './component/class4/ParentComp';
+// import ChildComp from './component/class4/ChildComp';
+// import ConditionalRendering from './component/class4/ConditionalRendering';
+// import PrevState from './component/class5/PrevState';
+// import ListRender from './component/class5/ListRender';
+// import ShowInfo from './component/class5/secondWay/ShowInfo';
 // import Button from './component/class6/CssComponent/CssModules/Button';
 // import CssStyleComp from './component/class6/CssComponent/CssStyleComp';
 // import InlineCssComp from './component/class6/CssComponent/InlineCssComp';
@@ -13,16 +19,14 @@ import './App.css';
 // import InputRefsComp from './component/class11/Ref/InputRefsComp';
 // import RefsComp from './component/class11/Ref/RefsComp';
 // import ParentComp from './component/class11/ErrorBoundary/ParentComp';
-import Onclick from './component/class12/HOC/Onclick';
-import MouseOver from './component/class12/HOC/MouseOver';
+// import Onclick from './component/class12/HOC/Onclick';
+// import MouseOver from './component/class12/HOC/MouseOver';
+import ProductComp from './component/class13/ProductComp';
+import ClickCounter from './component/class13/RenderProps/ClickCounter';
+import Counting from './component/class13/RenderProps/Counting';
+import HoverCounter from './component/class13/RenderProps/HoverCounter';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
-// import ParentComp from './component/class4/ParentComp';
-// import ChildComp from './component/class4/ChildComp';
-// import ConditionalRendering from './component/class4/ConditionalRendering';
-// import PrevState from './component/class5/PrevState';
-// import ListRender from './component/class5/ListRender';
-// import ShowInfo from './component/class5/secondWay/ShowInfo';
 // import Table from './component/task/Table'
 // import Task from './component/Task';
 
@@ -65,9 +69,12 @@ function App() {
       {/* <RefsComp /> */}
       {/* <ParentComp /> */}
 
-      <Onclick age="23" />
-      <MouseOver color='Green' />
+      {/* <Onclick age="23" />
+      <MouseOver color='Green' /> */}
 
+      {/* <ProductComp name={(isAvailable) => isAvailable ? ("Laptop") : 'Not available'} /> */}
+      <Counting render={(count, handler) => <ClickCounter count={count} handler={handler} />} />
+      <Counting render={(stateValue, method) => <HoverCounter count={stateValue} handler={method} />} />
 
 
     </div>
