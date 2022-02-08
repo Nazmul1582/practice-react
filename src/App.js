@@ -21,10 +21,11 @@ import './App.css';
 // import ParentComp from './component/class11/ErrorBoundary/ParentComp';
 // import Onclick from './component/class12/HOC/Onclick';
 // import MouseOver from './component/class12/HOC/MouseOver';
-// import ProductComp from './component/class13/ProductComp';
-import ClickCounter from './component/class13/RenderProps/ClickCounter';
-import Counting from './component/class13/RenderProps/Counting';
-import HoverCounter from './component/class13/RenderProps/HoverCounter';
+// // import ProductComp from './component/class13/ProductComp';
+// import ClickCounter from './component/class13/RenderProps/ClickCounter';
+// import Counting from './component/class13/RenderProps/Counting';
+// import HoverCounter from './component/class13/RenderProps/HoverCounter';
+import ParentComp from './component/class14/ParentComp';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import Table from './component/task/Table'
@@ -73,9 +74,10 @@ function App() {
       <MouseOver color='Green' /> */}
 
       {/* <ProductComp name={(isAvailable) => isAvailable ? ("Laptop") : 'Not available'} /> */}
-      <Counting render={(count, handler) => <ClickCounter count={count} handler={handler} />} />
-      <Counting render={(stateValue, method) => <HoverCounter count={stateValue} handler={method} />} />
+      {/* <Counting render={(count, handler) => <ClickCounter count={count} handler={handler} />} />
+      <Counting render={(stateValue, method) => <HoverCounter count={stateValue} handler={method} />} /> */}
 
+      <ParentComp />
 
     </div>
   );
