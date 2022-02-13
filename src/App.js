@@ -1,4 +1,3 @@
-import './App.css';
 // import ParentComp from './component/class4/ParentComp';
 // import ChildComp from './component/class4/ChildComp';
 // import ConditionalRendering from './component/class4/ConditionalRendering';
@@ -25,7 +24,12 @@ import './App.css';
 // import ClickCounter from './component/class13/RenderProps/ClickCounter';
 // import Counting from './component/class13/RenderProps/Counting';
 // import HoverCounter from './component/class13/RenderProps/HoverCounter';
-import ParentComp from './component/class14/ParentComp';
+// import ParentComp from './component/class14/ParentComp';
+import Admit from './component/class15/HttpRequest/Admit';
+import AllPost from './component/class15/HttpRequest/AllPost';
+import CreatePost from './component/class15/HttpRequest/CreatePost';
+import GetPerson from './component/class15/HttpRequest/GetPerson';
+import GetPosts from './component/class15/HttpRequest/GetPosts';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import Table from './component/task/Table'
@@ -34,7 +38,7 @@ import ParentComp from './component/class14/ParentComp';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{textAlign: "center"}}>
       {/* <StudentComp name = "Bayezid" age = "10" /> */}
       {/* <MyClassComp name = "Nazmul" age = {23} />
       <MyClassComp name = "Hasan" age = {18} /> */}
@@ -77,7 +81,13 @@ function App() {
       {/* <Counting render={(count, handler) => <ClickCounter count={count} handler={handler} />} />
       <Counting render={(stateValue, method) => <HoverCounter count={stateValue} handler={method} />} /> */}
 
-      <ParentComp />
+      {/* <ParentComp /> */}
+
+      {/* <AllPost /> */}
+      {/* <GetPosts /> */}
+      {/* <CreatePost /> */}
+      {/* <Admit /> */}
+      <GetPerson />
 
     </div>
   );
