@@ -25,11 +25,14 @@
 // import Counting from './component/class13/RenderProps/Counting';
 // import HoverCounter from './component/class13/RenderProps/HoverCounter';
 // import ParentComp from './component/class14/ParentComp';
-import Admit from './component/class15/HttpRequest/Admit';
-import AllPost from './component/class15/HttpRequest/AllPost';
-import CreatePost from './component/class15/HttpRequest/CreatePost';
-import GetPerson from './component/class15/HttpRequest/GetPerson';
-import GetPosts from './component/class15/HttpRequest/GetPosts';
+// import Admit from './component/class15/HttpRequest/Admit';
+// import AllPost from './component/class15/HttpRequest/AllPost';
+// import CreatePost from './component/class15/HttpRequest/CreatePost';
+// import GetPerson from './component/class15/HttpRequest/GetPerson';
+// import GetPosts from './component/class15/HttpRequest/GetPosts';
+// import UseStateComp from './component/Hooks/useState/UseStateComp';
+// import UseStateWithPrevState from './component/Hooks/useState/UseStateWithPrevState';
+import UseStateWithObjArr from './component/Hooks/useState/UseStateWithObjArr';
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import Table from './component/task/Table'
@@ -87,7 +90,11 @@ function App() {
       {/* <GetPosts /> */}
       {/* <CreatePost /> */}
       {/* <Admit /> */}
-      <GetPerson />
+      {/* <GetPerson /> */}
+
+      {/* <UseStateComp />
+      <UseStateWithPrevState /> */}
+      <UseStateWithObjArr />
 
     </div>
   );
