@@ -32,7 +32,11 @@
 // import GetPosts from './component/class15/HttpRequest/GetPosts';
 // import UseStateComp from './component/Hooks/useState/UseStateComp';
 // import UseStateWithPrevState from './component/Hooks/useState/UseStateWithPrevState';
-import UseStateWithObjArr from './component/Hooks/useState/UseStateWithObjArr';
+// import UseStateWithObjArr from './component/Hooks/useState/UseStateWithObjArr';
+// import FetchDataWithUseEffect from './component/Hooks/useEffect/FetchDataWithUseEffect';
+// import UseEffectComp from './component/Hooks/useEffect/UseEffectComp';
+import FetchSingleData from './component/task/FetchSingleData';
+
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
 // import Table from './component/task/Table'
@@ -94,8 +98,11 @@ function App() {
 
       {/* <UseStateComp />
       <UseStateWithPrevState /> */}
-      <UseStateWithObjArr />
+      {/* <UseStateWithObjArr /> */}
 
+      {/* <UseEffectComp /> */}
+      {/* <FetchDataWithUseEffect /> */}
+      <FetchSingleData />
     </div>
   );
 }
