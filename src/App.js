@@ -33,9 +33,10 @@
 // import UseStateComp from './component/Hooks/useState/UseStateComp';
 // import UseStateWithPrevState from './component/Hooks/useState/UseStateWithPrevState';
 // import UseStateWithObjArr from './component/Hooks/useState/UseStateWithObjArr';
-// import FetchDataWithUseEffect from './component/Hooks/useEffect/FetchDataWithUseEffect';
 // import UseEffectComp from './component/Hooks/useEffect/UseEffectComp';
-import FetchSingleData from './component/task/FetchSingleData';
+// import FetchDataWithUseEffect from './component/Hooks/useEffect/FetchDataWithUseEffect';
+// import FetchSingleData from './component/task/FetchSingleData';
+import ParentComponent from './component/Hooks/useContext/context/ParentComponent';
 
 // import StudentComp from "./component/StudentComp";
 // import MyClassComp from './component/MyClassComp';
@@ -102,7 +103,8 @@ function App() {
 
       {/* <UseEffectComp /> */}
       {/* <FetchDataWithUseEffect /> */}
-      <FetchSingleData />
+      {/* <FetchSingleData /> */}
+      <ParentComponent />
     </div>
   );
 }
