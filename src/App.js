@@ -1,7 +1,9 @@
+import FunctionalComponent from "./components/FunctionalComponent";
+
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
+    <div className="wrapper">
+      <FunctionalComponent />
     </div>
   );
 }
