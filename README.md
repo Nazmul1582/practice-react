@@ -14,4 +14,4 @@
 
 - `React.createElement()` method creates this object below:
 
-[!React.createElement()](./src/assets/React.createElement.png)
+![React.createElement()](./src/assets/React.createElement.png)
