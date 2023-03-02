@@ -1,9 +1,9 @@
-import FunctionalComponent from "./components/FunctionalComponent";
+import ClassComponent from "./components/ClassComponent";
 
 function App() {
   return (
     <div className="wrapper">
-      <FunctionalComponent />
+      <ClassComponent />
     </div>
   );
 }
