@@ -1,14 +1,14 @@
-import StatefulComponent from "./components/StatefulComponent";
-import StatelessComponent from "./components/StatelessComponent";
+import ClassComponent from "./components/ClassComponent";
+import FunctionalComponent from "./components/FunctionalComponent";
 
 function App() {
   return (
     <div className="wrapper">
-      <StatelessComponent />
+      <ClassComponent profession="student" />
       <br />
-      <p>====================================</p>
+      <p>============================================================</p>
       <br />
-      <StatefulComponent />
+      <FunctionalComponent myself={{ name: "Nazmul", profession: "student" }} />
     </div>
   );
 }
