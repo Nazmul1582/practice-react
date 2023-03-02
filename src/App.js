@@ -1,14 +1,15 @@
 import React from "react";
-import UsingJsx from "./components/UsingJsx";
-import WithoutJsx from "./components/WithoutJsx";
+import ChildComponent from "./components/ChildComponent";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="wrapper">
-      <h1 className="title">JSX (JavaScript XML) Syntaxt</h1>
+      <h1 className="title">Parent Component & Child Component</h1>
       <div className="center">
-        <UsingJsx />
-        <WithoutJsx />
+        <ParentComponent>
+          <ChildComponent />
+        </ParentComponent>
       </div>
     </div>
   );
