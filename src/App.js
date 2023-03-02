@@ -1,9 +1,14 @@
-import ClassComponent from "./components/ClassComponent";
+import StatefulComponent from "./components/StatefulComponent";
+import StatelessComponent from "./components/StatelessComponent";
 
 function App() {
   return (
     <div className="wrapper">
-      <ClassComponent />
+      <StatelessComponent />
+      <br />
+      <p>====================================</p>
+      <br />
+      <StatefulComponent />
     </div>
   );
 }
