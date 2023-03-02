@@ -5,14 +5,18 @@
 }
 .wrapper {
   min-height: 100vh;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  text-align: center;
 }
 .title {
   text-align: center;
   font-size: 40px;
-  padding: 20px 0;
+  height: 80px;
   margin-bottom: 50px;
 }
 .center {
+  height: calc(100vh - 130px);
   display: flex;
   flex-direction: column;
   align-items: center;

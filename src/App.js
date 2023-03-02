@@ -1,19 +1,14 @@
-import ReusableComponent from "./components/ReusableComponent";
+import React from "react";
+import UsingJsx from "./components/UsingJsx";
+import WithoutJsx from "./components/WithoutJsx";
 
 function App() {
   return (
     <div className="wrapper">
-      <h1 className="title">Reusable Component</h1>
+      <h1 className="title">JSX (JavaScript XML) Syntaxt</h1>
       <div className="center">
-        <ReusableComponent name="Fahim" age={15} dist="Cumilla" />
-        <br />
-        <p>================================================</p>
-        <br />
-        <ReusableComponent name="Nafiz" age={14} dist="Dhaka" />
-        <br />
-        <p>================================================</p>
-        <br />
-        <ReusableComponent name="Sifat" age={13} dist="Khulna" />
+        <UsingJsx />
+        <WithoutJsx />
       </div>
     </div>
   );
