@@ -1,3 +1,3 @@
-# Props in React Js
+<h1 align="center"> Reusable Component </h1>
 
-![props](./src/assets/props.png)
+![resuable-component](./src/assets/resuable-component.png)

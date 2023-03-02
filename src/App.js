@@ -1,14 +1,20 @@
-import ClassComponent from "./components/ClassComponent";
-import FunctionalComponent from "./components/FunctionalComponent";
+import ReusableComponent from "./components/ReusableComponent";
 
 function App() {
   return (
     <div className="wrapper">
-      <ClassComponent profession="student" />
-      <br />
-      <p>============================================================</p>
-      <br />
-      <FunctionalComponent myself={{ name: "Nazmul", profession: "student" }} />
+      <h1 className="title">Reusable Component</h1>
+      <div className="center">
+        <ReusableComponent name="Fahim" age={15} dist="Cumilla" />
+        <br />
+        <p>================================================</p>
+        <br />
+        <ReusableComponent name="Nafiz" age={14} dist="Dhaka" />
+        <br />
+        <p>================================================</p>
+        <br />
+        <ReusableComponent name="Sifat" age={13} dist="Khulna" />
+      </div>
     </div>
   );
 }
