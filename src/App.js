@@ -1,15 +1,11 @@
-import React from "react";
-import ChildComponent from "./components/ChildComponent";
-import ParentComponent from "./components/ParentComponent";
+import ClassComponent from "./components/ClassComponent";
 
 function App() {
   return (
     <div className="wrapper">
-      <h1 className="title">Parent Component & Child Component</h1>
+      <h1 className="title">state change in Class Component</h1>
       <div className="center">
-        <ParentComponent>
-          <ChildComponent />
-        </ParentComponent>
+        <ClassComponent />
       </div>
     </div>
   );

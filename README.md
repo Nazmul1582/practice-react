@@ -1,9 +1,9 @@
 <br />
-<h1 align="center"> Parent Component & Child Component </h1>
+<h1 align="center"> State change in Class Component </h1>
 <br />
 <br />
 <br />
 
-![parent-and-child-component](./src/assets/parent-and-child-component.png)
+![state-change-in-class-component](./src/assets/state-change-in-class-component.png)
 
 <br />
